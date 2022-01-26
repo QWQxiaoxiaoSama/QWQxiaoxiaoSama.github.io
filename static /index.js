@@ -352,7 +352,7 @@
         if (score <= 99) return '嘶，你是没吃饱饭吗';
         if (score <= 149) return '乂，不愧是你';
         if (score <= 199) return '你真是太棒啦';
-        return 'W';
+        return '加入伞兵教吧！';
     }
 
     w.toStr = function(obj) {
