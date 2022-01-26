@@ -349,7 +349,7 @@
         }
         SubmitResults();
         if (score <= 49) return '嘶,你真是太逊了';
-        if (score <= 99) return '嘶，快但不完全快';
+        if (score <= 99) return '嘶，你是没吃饱饭吗';
         if (score <= 149) return '乂，不愧是你';
         if (score <= 199) return '你真是太棒啦';
         return 'W';
